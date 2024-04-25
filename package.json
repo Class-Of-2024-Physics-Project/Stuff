@@ -1,10 +1,11 @@
 {
-  "name": "stuff",
+  "name": "connect_arduino_to_html_with_nodejs",
   "version": "5.3.0",
   "description": "Displays the information for the robot of my physics project",
   "dependencies": {
     "serialport": "^9.2.8",
-    "socket.io": "^2.5.0"
+    "socket.io": "^2.5.0",
+    "dotenv": "^10.0.0"
   },
   "main": "index.js",
   "scripts": {
@@ -12,5 +13,7 @@
   },
   "keywords": [],
   "author": "Nathaniel",
-  "license": "ISC"
+  "license": "SEE LICENSE IN LICENSE.md", 
+  "devDependencies": {},
+  "private": true
 }

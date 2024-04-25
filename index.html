@@ -1,11 +1,19 @@
-<DOCTYPE html>
+<html lang="en">
 <head>
-    <title>Potentiometer</title>
+    <title>What's moving?</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Here is the degree of the potentionmeter</h1>
+    <h1>Here is what servo is being moved.</h1>
     <div id="sample"></div>
-    <script src="script.js"></script>
+    <script>
+        var socket = io();
+
+        socket.on('data', function(data){
+            console.log(data);
+            document.getElementById('sample').innerHTML = data;
+        });
+        </script>
 </body>
 </html>
