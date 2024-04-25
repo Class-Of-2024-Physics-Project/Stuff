@@ -1,0 +1,16 @@
+{
+  "name": "stuff",
+  "version": "5.3.0",
+  "description": "Displays the information for the robot of my physics project",
+  "dependencies": {
+    "serialport": "^9.2.8",
+    "socket.io": "^2.5.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Nathaniel",
+  "license": "ISC"
+}
